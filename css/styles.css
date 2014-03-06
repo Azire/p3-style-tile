@@ -1,6 +1,12 @@
+body{
+	background: url("../img/linen.png") repeat;
+	font-family: 'Open Sans', sans-serif;
+	color: #dcdcdc;
+}
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
-	margin: 0;
+	margin: 5px 0;
 }
 
 /* Layout for Style Tile*/
@@ -9,9 +15,36 @@ section {
 }
 
 h1{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 2.4em;
+	margin: 5px 0;
+	color: #dcdcdc;
 }
 
+h2{
+	font-family: 'Raleway', sans-serif;
+	color: #8cc864;
+	font-size: 1.6em
+}
+
+h3{
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 1.3em;
+}
+
+
+article{
+	width: 40%;
+	float: left;
+	padding: 10px 4%;
+}
+
+.light{
+	background: #dcdcdc;
+	color: #2e2e2e;
+	border-radius: 2px;
+}
 .color-1,
 .color-2,
 .color-3,
@@ -19,12 +52,22 @@ h1{
 .pattern-2,
 .pattern-3 {
 	border: 1px solid #000;
+	outline: 1px solid #dcdcdc;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
 }
 
+
+footer{
+	background: #2e2e2e;
+	padding: 5px 0;
+}
+
+ul{
+	list-style: none;
+}
 .color-1{
 	background: #2e2e2e;
 }
@@ -44,7 +87,28 @@ h1{
 .pattern-2{
 	background: url("../img/wall.png");
 }
+
+.pattern-3{
+	background: url("../img/grid.png");
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link{
+	color: #9932cc;
+
+}
+
+a:visited{
+	color: #bda0cb;
+	}
+
+a:hover{
+	color: #8cc864;
 }
